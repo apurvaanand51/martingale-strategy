@@ -43,3 +43,5 @@ export function runMartingale(initialBalance, baseBet, totalRounds){
         isBankrupt
     };
 }
+
+
