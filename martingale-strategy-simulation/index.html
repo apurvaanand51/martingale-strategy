@@ -5,10 +5,9 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>martingale-strategy-simulation</title>
+    <link rel="stylesheet" href="../martingale-strategy-simulation/src/style.css">
   </head>
   <body>
-    <div id="app"></div>
-
     <h2>Monte Carlo Distribution</h2>
     <canvas id="distributionChart"></canvas>
 
@@ -24,6 +23,10 @@
     <h2>Martingale - Final Balance Distribution</h2>
     <canvas id="martingaleDistributionChart"></canvas>
 
-    <script type="module" src="/src/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module" src="../martingale-strategy-simulation/src/scripts/experiment.js"></script>
+    <script type="module" src="../martingale-strategy-simulation/src/scripts/martingale.js"></script>
+    <script type="module" src="../martingale-strategy-simulation/src/scripts/simulation.js"></script>
+    <script type="module" src="../martingale-strategy-simulation/src/scripts/visualization.js"></script>
   </body>
 </html>
