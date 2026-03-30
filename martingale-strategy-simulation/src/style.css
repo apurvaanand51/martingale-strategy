@@ -5,4 +5,23 @@
 
 body{
   font-family: sans-serif;
+  text-align: center;
+}
+
+canvas{
+  scale: 0.8;
+}
+
+.btn{
+  margin: 6em;
+  padding: 2em;
+  outline: none;
+  border: none;
+  background-color: rgb(161, 161, 55);
+  color: #fff;
+  font-size: 1em;
+}
+
+h2{
+  margin-top: 1.4em;
 }
